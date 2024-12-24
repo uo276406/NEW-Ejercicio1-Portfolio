@@ -7,8 +7,8 @@ html {
 
 body {
     display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: 2fr 8fr;
+    grid-template-rows: auto 2fr auto;
+    grid-template-columns: 2.5fr 7.5fr;
     grid-template-areas: "header main" "aside main" "footer footer";
 }
 
@@ -16,24 +16,21 @@ header {
     grid-area: header;
     background-color: #7a7a7a;
     color: white;
-    text-align: center;
-    padding: 0.5em 0;
+    padding: 0.5em 3em;
 }
 
 aside {
     grid-area: aside;
     background-color: #7a7a7a;
     color: white;
-    text-align: center;
-    padding: 0.5em 0;
+    padding: 0.5em 2em;
 }
 
 main {
     grid-area: main;
     background-color: #999;
     color: white;
-    text-align: center;
-    padding: 0.5em 0;
+    padding: 0.5em 2em;
 }
 
 footer {

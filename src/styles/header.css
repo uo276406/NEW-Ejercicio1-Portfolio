@@ -1,13 +1,12 @@
 nav {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    padding: 1em 1em;
+    padding: 0.5em 0;
 }
 
 nav a:hover {
