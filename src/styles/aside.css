@@ -4,30 +4,26 @@ aside section {
     align-items: center;
     gap: 0.2em;
     padding: 1em;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin: 0.5em;
     background-color: #f0f0f0;
     color: #333;
 }
 
 aside section img {
-    width: 65%;
+    width: 60%;
     max-width: 12em;
     max-height: 14em;
-    height: auto;
-    margin: 0;
 }
 
 aside section h2 {
-    margin-top: 0.3em;
+    margin-top: 0.2em;
     font-size: 1.5em;
 }
 
-aside section p {
-    font-size: 1em;
+aside section * p {
+    font-size: 0.85em;
 }
 
 aside section article {
@@ -39,7 +35,7 @@ aside section article {
 
 aside section:hover article {
     opacity: 1;
-    max-height: 200px; /* Ajusta este valor según el contenido */
+    max-height: 12.5rem;
 }
 
 aside * a {
@@ -54,7 +50,7 @@ aside * a:hover {
 aside * i {
     color: #333;
     font-size: 1em;
-    margin: 0 0.5em;
+    margin: 0.5em;
 }
 
 @media (max-width: 768px) {
