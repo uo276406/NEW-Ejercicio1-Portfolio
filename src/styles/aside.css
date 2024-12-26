@@ -1,8 +1,51 @@
-aside {
+aside section {
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin: 0.5em;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
-aside img {
-    width: 75%;
+aside section img {
+    width: 65%;
     height: auto;
+    margin: 0;
+}
+
+aside section h2 {
+    margin-top: 0.3em;
+    font-size: 1.5em;
+}
+
+aside section p {
+    font-size: 1em;
+}
+
+aside article {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 1s ease, max-height 0.7s ease;
+}
+
+aside section:hover article {
+    opacity: 1;
+    max-height: 200px; /* Ajusta este valor según el contenido */
+}
+
+aside * a {
+    color: #333;
+    text-decoration: none;
+}
+
+aside * a:hover {
+    text-decoration: underline;
+}
+
+aside * i {
+    color: #333;
+    font-size: 1em;
+    margin: 0 0.5em;
 }

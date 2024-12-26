@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="styles/aside.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <script src="scripts/script.js" defer></script>
+
 </head>
 
 <body>
@@ -28,12 +30,18 @@
         </nav>
     </header>
     <aside>
-        <img src="img/profile.jpg" alt="Foto de perfil">
-        <h2>Diego González Suárez</h2>
-        <p>Estudiante de Ingeniería Informática en la Universidad de Oviedo</p>
+        <section>
+            <img src="img/profile.jpg" alt="Foto de perfil">
+            <h2>Diego González Suárez</h2>
+            <p>Estudiante de Ingeniería Informática en la Universidad de Oviedo</p>
+            <article>
+                <p><i class="fas fa-envelope"></i><a href="mailto:diegogs1451@gmail.com">diegogs1451@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i>+34 677 777 777</p>
+            </article>
+        </section>
     </aside>
     <main>
-        <section>
+        <section class="section-hidden">
             <h2 id="experiencia">Experiencia</h2>
             <article>
                 <h3>Indra - Fullstack developer</h3>
@@ -41,16 +49,12 @@
                 <p>
                     Desarrollo de proyectos web para la administración pública en el ámbito de los sistemas de gestión
                     industriales para
-                    funcionarios e inspectores. Básicamente el portal gestiona la información relativa a inspecciones y
-                    comunicaciones de incidencias del tejido industrial de la administración pública.
+                    funcionarios e inspectores del tejido industrial estatal.
                 </p>
                 <p>
-                    Las tecnologías principales que utilizo en mi día a día serían el lenguaje de programación Java con
+                    Las tecnologías principales que utilizo serían el lenguaje de programación Java con
                     SpringBoot del lado del backend y Angular con el lenguaje TypeScript del lado del frontend para el
-                    desarrollo de componentes de la interfaz web. He desarrollado e implementado formularios adaptables
-                    y responsive para diferentes
-                    vistas del sitio web lo que me ha permitido incrementar mis capacidades en el desarrollo de estilos
-                    CSS.
+                    desarrollo de componentes de la interfaz web.
                 </p>
             </article>
             <article>
@@ -59,15 +63,11 @@
                 <p>
                     En esta etapa me centré en el desarrollo de proyectos para empresas del sector energético,
                     concretamente Repsol España y Portugal. Junto con el equipo de backend
-                    diseñábamos y desarrollábamos servicios web que después eran utilizados por el equipo de frontend
-                    por
-                    medio de una API REST.
+                    implementaba servicios web que después eran utilizados por el equipo de frontend.
                 </p>
                 <p>
                     Asimismo, durante esta etapa el entorno de trabajo se basaba en SCRUM, con reuniones diarias con el
-                    equipo de desarrollo y con el cliente con algunas demostraciones y revisiones cada 3 semanas al
-                    finalizar
-                    el sprint.
+                    equipo de desarrollo y el cliente con algunas demostraciones periódicas del avance del sprint.
                 </p>
             </article>
             <article>
@@ -75,20 +75,14 @@
                 <p><strong>Julio 2022 - Agosto 2022</strong></p>
                 <p>
                     Durante mi primera etapa profesional completé las prácticas del Grado en Ingeniería Informática del
-                    Software en la empresa TotalEnergies Clientes S.A. En esta etapa profesional, desarrollé actividades
-                    en el
-                    departamento de Gestión de Energía a través de una Cátedra en Análisis de Datos e IA
-                </p>
-                <p>
-                    Mis labores principales eran las de consultas de servicios web SOAP para la recolección y
+                    Software en la empresa TotalEnergies Clientes S.A. Trabajé en el
+                    departamento de Gestión de Energía a través de una Cátedra en Análisis de Datos e IA. Mis labores principales eran las de consultas de servicios web SOAP para la recolección y
                     almacenamiento
-                    de datos acerca de la producción eléctrica de diferentes centrales. Me encargaba de programar
-                    scripts en lenguaje Python para atacar servicios web estatales de Red
-                    Eléctrica Española.
+                    de datos acerca de la producción eléctrica de diferentes centrales.
                 </p>
             </article>
         </section>
-        <section>
+        <section class="section-hidden">
             <h2 id="formacion">Formación</h2>
             <article>
                 <h3>Máster Universitario en Ingeniería Web</h3>
@@ -101,20 +95,17 @@
                 <p>Universidad de Oviedo</p>
             </article>
         </section>
-        <section>
+        <section class="section-hidden">
             <h2 id="idiomas">Idiomas</h2>
             <article>
                 <h3>Inglés</h3>
                 <p><strong>CEFR Level B2 in English</strong></p>
-                <p>Escuelo Oficial de Idiomas</p>
-            </article>
-            <article>
-                <h3>Ingles</h3>
+                <p>Escuela Oficial de Idiomas</p>
                 <p><strong>CEFR Level B2.2 in English</strong></p>
                 <p>Trinity College London</p>
             </article>
         </section>
-        <section>
+        <section class="section-hidden">
             <h2 id="tecnologias">Tecnologías</h2>
             <article>
 
@@ -123,7 +114,6 @@
     </main>
     <footer>
         <p>&copy; 2025 Diego González Suárez</p>
-        <p>Contacto: <a href="mailto:diegogs1451@gmailcom">diegogs1451@gmail.com</a></p>
         <section>
             <a href="https://www.linkedin.com/in/diego-gonz%C3%A1lez-su%C3%A1rez-64b2371b1/" target="_blank">
                 <i class="fab fa-linkedin"></i> LinkedIn
@@ -133,6 +123,9 @@
             </a> |
             <a href="https://www.youtube.com/@diegogs1451" target="_blank">
                 <i class="fab fa-youtube"></i> YouTube
+            </a> |
+            <a href="https://github.com/uo276406" target="_blank">
+                <i class="fab fa-github"></i> GitHub
             </a>
         </section>
     </footer>

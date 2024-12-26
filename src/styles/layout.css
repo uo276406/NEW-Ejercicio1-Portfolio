@@ -3,6 +3,7 @@
 html {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    height: 100%;
 }
 
 body {
@@ -27,6 +28,8 @@ aside {
 }
 
 main {
+    display: flex;
+    flex-wrap: wrap;
     grid-area: main;
     background-color: #999;
     color: white;
